@@ -1,10 +1,10 @@
 import React from "react";
 import '../Styles/HeroSection.css';
-import beach from '../Assets/beach.jpg';
-import nature from '../Assets/nature.jpg';
-import hotel from '../Assets/hotel.jpg';
-import mountain from '../Assets/mountain.jpg';
-import heroBg from '../Assets/hero-bg.jpg';
+import beach from '../assets/beach.jpg';
+import nature from '../assets/nature.jpeg';
+import hotel from '../assets/Hotel.JPG';
+import mountain from '../assets/mountain.jpg';
+import heroBg from '../assets/hero-bg.jpeg';
 
 const categories = [
     { img: beach, title: 'BEACH'},
