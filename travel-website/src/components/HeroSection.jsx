@@ -1,54 +1,55 @@
-import React from "react";
-import '../Styles/HeroSection.css';
+import React from 'react';
+import '../styles/HeroSection.css';
 import beach from '../assets/beach.jpg';
 import nature from '../assets/nature.jpeg';
 import hotel from '../assets/Hotel.JPG';
 import mountain from '../assets/mountain.jpg';
-import heroBg from '../assets/hero-bg.jpeg';
 
 const categories = [
-    { img: beach, title: 'BEACH'},
-    { img: nature, title: 'NATURE'},
-    { img: hotel, title: 'HOTEL'},
-    { img: mountain, title: 'MOUNTAIN'}];
+  { img: beach, title: 'BEACH' },
+  { img: nature, title: 'NATURE' },
+  { img: hotel, title: 'HOTEL' },
+  { img: mountain, title: 'MOUNTAIN' }
+];
 
-    const HeroSection = () =>{
-        return(
-            <div className="hero-section" style={{ backgroundImage: `url(${heroBg})` }}>
-                <nav className="hero-nav">
-                    <div className="logo">Travel Plan</div>
-                    <ul className="nav-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#explore">Explore</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <div className="social-icons">
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </nav>
+const HeroSection = () => {
+  return (
+    <div className="hero-section">
+      <nav className="hero-nav">
+        <div className="logo">Travel Plan</div>
+        <ul className="nav-links">
+          <li>Home</li>
+          <li>About</li>
+          <li>Explore</li>
+          <li>Contact</li>
+        </ul>
+        <div className="social-icons">
+          <i className="fa fa-search"></i>
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-instagram"></i>
+          <i className="fab fa-linkedin-in"></i>
+        </div>
+      </nav>
 
-                < div className="hero-content">
-                <div className="left-content">
-                    <p className="subheading">Travel Plan</p>
-                    <h1>NEVER STOP<br/>EXPLORING THE <br/> WORLD.</h1>
-                    <button className="hero-btn">LEARN MORE</button>
-                </div>
-           <div className="scroll-cards">
-          {categories.map((item, i) => (
-            <div className="scroll-card" key={i}>
-              <img src={item.img} alt={item.title} />
-              <h3>{item.title}</h3>
-            </div>
-          ))}
+      <div className="hero-content">
+        <div className="left-content">
+          <h1>
+            NEVER STOP<br />
+            EXPLORING THE<br />
+            WORLD.
+          </h1>
+          <button className="hero-btn">LEARN MORE</button>
+        </div>
+
+        <div className="scroll-wrapper">
+          <div className="scroll-cards">
+            {categories.map((item, index) => (
+              <div className="scroll-card" key={index}>
+                <img src={item.img} alt={item.title} />
+                <div className="overlay-text">{item.title}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
