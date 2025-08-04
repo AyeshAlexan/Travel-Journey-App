@@ -1,10 +1,10 @@
 import React from "react";
-import styles from  "../styles/TrendingSection.module.css";
+import styles from  "../styles/TrendingSection.css";
 import kandy from "../assets/kandy.jpg";
 import anuradhapura from "../assets/anuradhapura.jpg";
 import galle from "../assets/galle.jpg";        
-import sigiriya from "../assets/sigiriya.jpg";
-import  Ruwananw from "../assets/Ruwanwelisaya.jpg";
+import sigiriya from "../assets/sigiriya.jpeg";
+import  Ruwananw from "../assets/Ruwanweli Maha Seya.jpg";
 
 const trendingData = [
     {img : kandy, label: "Kandy"},
