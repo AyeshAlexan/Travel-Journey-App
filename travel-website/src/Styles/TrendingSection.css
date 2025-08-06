@@ -68,4 +68,7 @@
   font-weight: 600;
   color: #fff;
   z-index: 3;
+}.caption a {
+  color: #fff;
+  text-decoration: none;
 }
