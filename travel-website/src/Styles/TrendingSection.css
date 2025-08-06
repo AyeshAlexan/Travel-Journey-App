@@ -1,74 +1,79 @@
-.trending-container{
-    background: #111;
-    padding: 40px 60px ;
-    color: white;
-}
-.trending-container h2{
-    font-size: 28px;
-    margin-bottom: 20px;
+/* ...existing code... */
+
+.trending-section {
+  margin-top: 60px;
+  padding: 0 60px;
 }
 
-.trending-scroll{
-    display: flex;
-    gap: 30px;
-    overflow-x: auto;
-    padding-bottom: 20px;
-}
-
-.trending-scroll ::-webkit-scrollbar{
-    display: none;
-}
-
-.trending-card{
-    position: relative;
-    min-width: 200px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 6px 20px rgb(0, 0,0, 0.4);
-}
-.trending-card img {
-  width: 300px;
-  height: 250px;
-  object-fit: cover;
-  z-index: 2;
-  position: relative;
+.trending-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #003399;
+  margin-bottom: 32px;
   text-align: center;
+  
 }
 
-.bg-number {
-  position: absolute;
-  font-size: 150px;
-  font-weight: 900;
-  color: rgba(255, 255, 255, 0.05);
-  top: 20px;
-  left: -10px;
-  z-index: 1;
-  pointer-events: none;
+.trending-cards {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
 }
 
-.label {
-  position: absolute;
-  bottom: 45px;
-  left: 10px;
-  background: red;
-  color: white;
-  padding: 2px 10px;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 3px;
-  z-index: 3;
+.trending-card {
+  position: relative;
+  min-width: 220px;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  scroll-snap-align: start;
+  transition: transform 0.3s;
 }
 
-.caption {
+.trending-card:hover {
+  transform: scale(1.05);
+}
+
+.trending-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 24px 24px 0 0;
+}
+
+.rank-badge {
   position: absolute;
-  bottom: 15px;
-  left: 10px;
-  font-size: 16px;
-  font-weight: 600;
+  top: 16px;
+  left: 16px;
+  background: #2ecc71;
   color: #fff;
-  z-index: 3;
-}.caption a {
-  color: #fff;
-  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(44,204,113,0.18);
+  z-index: 2;
 }
+
+.trending-card-title {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  padding: 0 12px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+/* ...existing code... */

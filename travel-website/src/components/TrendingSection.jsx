@@ -4,32 +4,32 @@ import kandy from "../assets/kandy.jpg";
 import anuradhapura from "../assets/anuradhapura.jpg";
 import galle from "../assets/galle.jpg";        
 import sigiriya from "../assets/sigiriya.jpeg";
-import  Ruwananw from "../assets/Ruwanweli Maha Seya.jpg";
-
-const trendingData = [
-    {img : kandy, label: "Kandy"},
-    {img : anuradhapura, label: "Anuradhapura"},
-    {img : galle, label: "Galle"},
-    {img : sigiriya, label: "Sigiriya"},
-    {img : Ruwananw, label: "Ruwanwelisaya"}
+import Ruwananw from "../assets/Ruwanweli Maha Seya.jpg";
+import ella from "../assets/ela.jpeg"; 
+import face from "../assets/galle-face-beach-seen.jpg";
+const trendingPlaces = [
+    {img: kandy, label: "Kandy"},
+    {img: anuradhapura, label: "Anuradhapura"},
+    {img: galle, label: "Galle"},
+    {img: sigiriya, label: "Sigiriya"},
+    {img: Ruwananw, label: "Ruwanwelisaya"},
+    {img: ella, label: "Ella"},
+    {img: face, label: "Galle Face Beach"}
 ];
 
-const TrendingSection = () => {
-    return(
-        <div  clasName="trending-container">
-            <h2>What's Trending in Sri Lanka</h2>
-            <div className="trending-scroll">
-                {trendingData.map((item, index)=> (
-                    <div className="trending-card" key={index}>
-                        <div className = "bg-number">{index +1}</div>
-                        <img src={item.img} alt={item.label} />
-                        <div className="label"> Recently Added</div>
-                        <div className="caption">{item.label}</div>
-                    </div>
-                ))}
-            </div>
+const TrendingSection = () => (
+  <section className="trending-section">
+    <h2 className="trending-title">Trending Places</h2>
+    <div className="trending-cards">
+      {trendingPlaces.map((place, idx) => (
+        <div className="trending-card" key={place.label}>
+          <span className="rank-badge">{idx + 1}</span>
+          <img src={place.img} alt={place.label} />
+          <div className="trending-card-title">{place.label}</div>
         </div>
-    );
-};
+      ))}
+    </div>
+  </section>
+);
 
 export default TrendingSection;
