@@ -18,7 +18,7 @@ return(
             {destinations.map((place, index)=>(
                 <div className="destination-card" key={index}>
                     <img src={place.img} alt={place.label}/>
-                    <div className="destination-label">{place.label}</div>
+                    <div className="destination-name">{place.label}</div>
                 </div>
             ))}
         </div>

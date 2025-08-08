@@ -31,11 +31,16 @@
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
   scroll-snap-align: start;
   transition: transform 0.3s;
+  
 }
 
+.trending-cards::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
 .trending-card:hover {
   transform: scale(1.05);
 }
+
 
 .trending-card img {
   width: 100%;
