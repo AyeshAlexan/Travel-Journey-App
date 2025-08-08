@@ -7,6 +7,8 @@ import sigiriya from "../assets/sigiriya.jpeg";
 import Ruwananw from "../assets/Ruwanweli Maha Seya.jpg";
 import ella from "../assets/ela.jpeg"; 
 import face from "../assets/galle-face-beach-seen.jpg";
+
+
 const trendingPlaces = [
     {img: kandy, label: "Kandy"},
     {img: anuradhapura, label: "Anuradhapura"},
