@@ -34,9 +34,9 @@ const HeroSection = () => {
       <div className="hero-content">
         <div className="left-content">
           <h1>
-            NEVER STOP<br />
             EXPLORING THE<br />
-            WORLD.
+            BEAUTY OF<br />
+            SRI LANKA.
           </h1>
           <button className="hero-btn">LEARN MORE</button>
         </div>
