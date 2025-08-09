@@ -9,10 +9,10 @@ import gallfort from "../assets/galle-fort.jpg";
 
 const TopDestinations = () => {
 const destinations = [
-    {img :kandy,label: "Kandy"},
-    {img : ella,label: "Ella"},
-    {img : jaffna,label: "Jaffna"},
-    {img : waterfall,label: "Waterfall"},
+    {img :kandy,label: "Kandy Esala Perahera"},
+    {img : ella,label: "Ella -Kandy"},
+    {img : jaffna,label: "Jaffna Fort"},
+    {img : waterfall,label: "Bambarakanda Falls"},
     {img : colombo,label: "Colombo"},   
     {img : gallfort,label: "Galle Fort"}
 ];
@@ -20,6 +20,7 @@ const destinations = [
 return(
     <section className="top-destinations">
         <h2>Top Destinations</h2>
+        <p className="subtitle">Discover the most breathtaking spots Sri Lanka has to offer</p>
         <div className="destination-grid">
             {destinations.map((place, index)=>(
                 <div className="destination-card" key={index}>

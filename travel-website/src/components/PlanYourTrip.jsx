@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/PlanYourTrip.css";
 import adventure from "../assets/adventure.jpg";
 import beach from "../assets/slbeach.jpg";
-import culture from "../asssets/culture.jpg";
+import culture from "../assets/culture.jpg";
 import wildLife from "../assets/widlife.jpg";
 
 const PlanYourTrip = () => {

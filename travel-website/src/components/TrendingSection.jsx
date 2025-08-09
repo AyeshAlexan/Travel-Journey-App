@@ -22,6 +22,7 @@ const trendingPlaces = [
 const TrendingSection = () => (
   <section className="trending-section">
     <h2 className="trending-title">Trending Places</h2>
+    <p className="subtitle">This week Trending Places</p>
     <div className="trending-cards">
       {trendingPlaces.map((place, idx) => (
         <div className="trending-card" key={place.label}>

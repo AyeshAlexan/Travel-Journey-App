@@ -1,0 +1,58 @@
+.plan-your-trip {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: -35px;
+}
+
+.plan-your-trip h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:  #003399;
+}
+
+.trip-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.trip-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: scale(1.05);
+}
+
+.trip-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.trip-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 8px 0;
+  color: #333;
+}
+
+.trip-desc {
+  font-size: 14px;
+  color: #555;
+  padding: 0 15px 20px;
+  line-height: 1.4;
+}

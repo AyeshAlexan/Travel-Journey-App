@@ -9,8 +9,9 @@ const App = () => {
     <>
       <HeroSection />
       <TrendingSection />
+       <PlanYourTrip />
       <TopDestinations />
-      <PlanYourTrip />
+     
     </>
   );
 };
