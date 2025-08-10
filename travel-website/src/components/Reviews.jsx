@@ -6,7 +6,7 @@ const reviewsData = [
     name: "Sarah Williams",
     img: "https://randomuser.me/api/portraits/women/65.jpg",
     rating: 5,
-    comment: "Absolutely loved the trip! The service and locations were amazing."
+    comment: "Absolutely loved the trip! The service and locations were amazing.",
   },
   {
     name: "John Smith",
