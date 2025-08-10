@@ -13,7 +13,7 @@ const destinations = [
     {img : ella,label: "Ella -Kandy"},
     {img : jaffna,label: "Jaffna Fort"},
     {img : waterfall,label: "Bambarakanda Falls"},
-    {img : colombo,label: "Colombo"},   
+    {img : colombo,label: "Colombo City"},   
     {img : gallfort,label: "Galle Fort"}
 ];
 
