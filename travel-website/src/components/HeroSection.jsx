@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <nav className="hero-nav">
-        <div className="logo">Travel Plan</div>
+        <div className="logo">Travel Lanka</div>
         <ul className="nav-links">
           <li>Home</li>
           <li>About</li>

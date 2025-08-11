@@ -22,8 +22,10 @@ body {
 }
 
 .logo {
-  font-weight: 600;
-  font-size: 20px;
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
 }
 
 .nav-links {
