@@ -58,7 +58,7 @@ body {
 .social-icons i:hover {
   transform: scale(1.2);
   color: #2ecc71;
-}
+} 
 
 .hero-content {
   display: flex;

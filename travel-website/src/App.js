@@ -6,6 +6,7 @@ import PlanYourTrip from './components/PlanYourTrip';
 import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 
+
 const App = () => {
   return (
     <>
