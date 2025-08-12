@@ -29,7 +29,7 @@ const HeroSection = () => {
           <i className="fab fa-instagram"></i>
           <i className="fab fa-linkedin-in"></i>
         </div>
-      </nav>
+      </nav> 
 
       <div className="hero-content">
         <div className="left-content">
