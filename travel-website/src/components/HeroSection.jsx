@@ -15,7 +15,7 @@ const categories = [
 const HeroSection = () => {
   return (
     <div className="hero-section">
-       <nav className="hero-nav">
+       { /* <nav className="hero-nav">
         <div className="logo">Travel Lanka</div>
         <ul className="nav-links">
           <li>Home</li>
@@ -29,7 +29,7 @@ const HeroSection = () => {
           <i className="fab fa-instagram"></i>
           <i className="fab fa-linkedin-in"></i>
         </div>
-      </nav> 
+      </nav> */}
 
       <div className="hero-content">
         <div className="left-content">

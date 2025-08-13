@@ -5,11 +5,13 @@ import TopDestinations from './components/TopDestinations';
 import PlanYourTrip from './components/PlanYourTrip';
 import Reviews from './components/Reviews';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 
 const App = () => {
   return (
     <>
+      <NavBar />
       <HeroSection />
       <TrendingSection />
       <PlanYourTrip />

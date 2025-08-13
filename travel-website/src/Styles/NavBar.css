@@ -1,0 +1,55 @@
+.hero-nav {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  margin-top: 10px;
+  z-index: 5px;
+  background: transparent; /* see image through navbar */
+  ;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 1.9rem;
+  margin-bottom: 5px;
+  color:  #333; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.nav-links a {
+  cursor: pointer;
+  color:  #333; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+}
+
+.nav-links a:hover {
+  color: #2ecc71;
+}
+
+.social-icons i {
+  margin-left: 10px;
+  font-size: 20px;
+  color:  #333; 
+  cursor: pointer;
+  transition: transform 0.2s, color 0.3s;
+
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+  color: #2ecc71;
+}
