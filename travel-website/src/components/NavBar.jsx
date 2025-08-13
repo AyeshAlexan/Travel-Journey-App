@@ -12,7 +12,6 @@ function NavBar() {
         <a href="../components/Contact.jsx">Contact</a>
         </ul>
         <div className="social-icons">
-          <i className="fa fa-search"></i>
           <i className="fab fa-facebook-f"></i>
           <i className="fab fa-instagram"></i>
           <i className="fab fa-linkedin-in"></i>
