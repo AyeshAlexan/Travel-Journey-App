@@ -1,0 +1,41 @@
+.about-hero {
+  position: relative;
+  height: 60vh;
+  background: url("/assets/beach.jpg") center/cover no-repeat;
+}
+
+.about-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-details {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.about-details .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-details h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-details p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
