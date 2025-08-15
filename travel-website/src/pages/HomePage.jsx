@@ -5,12 +5,10 @@ import PlanYourTrip from '../components/PlanYourTrip';
 import TopDestinations from '../components/TopDestinations';
 import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
-import NavBar from '../components/NavBar';
 
 const HomePage = () => {
   return (
     <>
-      <NavBar />
       <HeroSection />
       <TrendingSection />
       <PlanYourTrip />

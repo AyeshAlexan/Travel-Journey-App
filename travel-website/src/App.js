@@ -1,26 +1,20 @@
-import React from 'react';
-import HeroSection from './components/HeroSection';
-import TrendingSection from './components/TrendingSection';
-import TopDestinations from './components/TopDestinations';
-import PlanYourTrip from './components/PlanYourTrip';
-import Reviews from './components/Reviews';
-import Footer from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";  
+
 import NavBar from './components/NavBar';
+import HomePage from './pages/HomePage';
+import About from './pages/About';
 
-
-const App = () => {
-  return (
-    <>
+function App() {
+  return(
+    <Router>
       <NavBar />
-      <HeroSection />
-      <TrendingSection />
-      <PlanYourTrip />
-      <TopDestinations />
-      <Reviews />
-      <Footer />  
-
-    </>
+      <Routes>
+          <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;
