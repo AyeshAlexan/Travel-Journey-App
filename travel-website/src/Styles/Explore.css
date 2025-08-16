@@ -1,0 +1,50 @@
+.explore-container {
+  padding: 60px 80px;
+  background: #f9f9f9;
+}
+
+.explore-container h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  text-align: center;
+  font-weight: 700;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.explore-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.explore-card:hover {
+  transform: translateY(-8px);
+}
+
+.explore-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.explore-card h3 {
+  font-size: 1.2rem;
+  margin: 15px 0 8px;
+  color: #34495e;
+}
+
+.explore-card p {
+  font-size: 0.95rem;
+  color: #666;
+  padding: 0 15px 20px;
+}
