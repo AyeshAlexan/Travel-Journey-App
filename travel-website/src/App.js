@@ -12,6 +12,7 @@ function App() {
       <Routes>
           <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/explore" element={<Explore />} />
       </Routes>
     </Router>
   );
