@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
+import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
@@ -9,10 +10,10 @@ const Footer = () => {
       <p className="footer-tagline">Excellence in travel experiences</p>
 
       <nav className="footer-links">
-        <a href="../components/HeroSection.jsx">Home</a>
-        <a href="#">About</a>
-        <a href="#">Explore</a>
-        <a href="#">Contact</a>
+        <a href="../pages/Home.jsx">Home</a>
+        <a href="../pages/About.jsx">About</a>
+        <a href="../pages/Explore.jsx">Explore</a>
+        <a href="../pages/Contact.jsx">Contact</a>
       </nav>
 
       <div className="footer-social">
