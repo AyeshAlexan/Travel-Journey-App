@@ -38,7 +38,7 @@ const HeroSection = () => {
             BEAUTY OF<br />
             SRI LANKA.
           </h1>
-          <button className="hero-btn">LEARN MORE</button>
+          <button className="hero-btn">LEARN MORE </button>
         </div>
 
         <div className="scroll-wrapper">
