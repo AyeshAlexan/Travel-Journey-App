@@ -1,8 +1,10 @@
 import React from "react";
 import "../styles/Contact.css";
+import Footer from "../components/Footer";
 
 const Contact =() =>{
     return (
+        <>
         <section className="contact">
             <div className="contact-container">
                 <h2 className="contact-title">Contact Us </h2>
@@ -30,7 +32,9 @@ const Contact =() =>{
                 </div>
             </div>
         </section>
+        <Footer />
+        </>
     );
 };
-
+ 
 export default Contact;
