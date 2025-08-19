@@ -2,6 +2,7 @@
   padding: 80px 20px;
   background: #f9f9f9;
   text-align: center;
+  
 }
 .contact-title{
     font-size: 2.5rem;
@@ -44,3 +45,23 @@
     font-size: 1rem;
     outline: none;
  }
+ .contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077b6;
+}
+
+.send-btn {
+  background: #0077b6;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.send-btn:hover {
+  background: #023e8a;
+}
+
