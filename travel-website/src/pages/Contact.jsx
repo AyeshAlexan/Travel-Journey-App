@@ -7,6 +7,7 @@ const Contact =() =>{
         <>
         <br></br>
         <br></br>
+        
         <section className="contact">
             <div className="contact-container">
                 <h2 className="contact-title">Contact Us </h2>
